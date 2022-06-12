@@ -250,6 +250,15 @@ a{
     display: flex;
 }
 
+.error{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: large;
+    font-weight: 600;
+    color: white;
+}
 
-
-
+input::placeholder{
+    color: white;
+    opacity: .7;
+}
