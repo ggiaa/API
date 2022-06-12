@@ -499,7 +499,7 @@ function searchLocation(){
     $('.list').html('')
 
     $.ajax({
-        url: 'http://api.weatherapi.com/v1/forecast.json',
+        url: 'https://api.weatherapi.com/v1/forecast.json',
         type: 'get',
         dataType: 'json',
         data: {
