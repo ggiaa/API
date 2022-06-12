@@ -1099,7 +1099,11 @@ function searchLocation(){
 
           })
         },
-        error: function(){}
+        error: function(){
+          $('.list').append(`
+            <p class="error">Kata Kunci Tidak Ditemukan!</p>
+          `)
+        }
     })
 }
 
